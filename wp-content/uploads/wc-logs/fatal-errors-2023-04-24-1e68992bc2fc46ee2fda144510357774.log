@@ -1,0 +1,48 @@
+2023-04-24T04:56:56+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\functions.php on line 7
+
+2023-04-24T04:57:05+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\functions.php on line 7
+
+2023-04-24T04:57:36+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\functions.php on line 7
+
+2023-04-24T09:03:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "short_title_produc’" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('GEL R\xE1\xBB\xACA M\xE1\xBA\xB6T...', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(173): apply_filters('the_title', 'GEL R\xE1\xBB\xACA M\xE1\xBA\xB6T...', 575)
+#2 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(89): get_the_title(Object(WP_Post))
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3196): the_title_attribute(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): feed_links_extra(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\header.php(10): wp_head()
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(16): get_header('shop')
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-24T09:03:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "short_title_produc" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('GEL R\xE1\xBB\xACA M\xE1\xBA\xB6T...', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(173): apply_filters('the_title', 'GEL R\xE1\xBB\xACA M\xE1\xBA\xB6T...', 575)
+#2 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(89): get_the_title(Object(WP_Post))
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3196): the_title_attribute(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): feed_links_extra(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\header.php(10): wp_head()
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(16): get_header('shop')
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 308
+

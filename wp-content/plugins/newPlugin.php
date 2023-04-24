@@ -7,7 +7,7 @@ add_shortcode('thuonghieunoibat', 'create_thuonghieunoibat');
 function create_thuonghieunoibat()
 {
     return "
-    <div class='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-2 items-center justify-center'>
+    <div class='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-2 items-center justify-center mt-10'>
     <a class='border border-gray-300 hover:shadow-md shadow-sm flex items-center justify-self-center'
 href=''><img class='w-20 h-20' src='http://localhost/wordpress/wp-content/uploads/brand/9wishes.png' alt=''></a>
 <a class='border border-gray-300 hover:shadow-md shadow-sm flex items-center justify-self-center'
