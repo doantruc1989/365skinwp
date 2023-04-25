@@ -115,3 +115,53 @@ Version: 3.0
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
+
+.tb-brand-logo {
+  display: flex;
+ justify-content: center;
+}
+.tb-brand-logo .brand-logo {
+    max-width: 60px !important;
+}
+
+ .section-title-main {
+  border-bottom: none !important;
+}
+
+.section-title-normal {
+  border-bottom: none !important;
+}
+
+.woocommerce-billing-fields__field-wrapper * {
+  width: 100%;
+  border-radius: 10px !important;
+}
+
+.woocommerce-input-wrapper textarea {
+  border-radius: 10px !important;
+}
+
+.woocommerce-shipping-fields__field-wrapper * {
+  width: 100%;
+  border-radius: 10px !important;
+}
+
+.woocommerce-checkout-review-order-table * {
+  border: none !important;
+}
+
+.cart_totals * {
+  border: none !important;
+}
+
+.woocommerce-cart-form__contents * {
+  border: none !important;
+}
+
+.checkout_coupon * {
+  border-radius: 10px !important;
+}
+
+.woocommerce-Price-amount {
+  color: #ff1717 !important;
+}
