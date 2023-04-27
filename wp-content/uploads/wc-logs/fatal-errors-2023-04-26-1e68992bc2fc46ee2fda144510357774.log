@@ -1,0 +1,36 @@
+2023-04-26T07:43:31+00:00 CRITICAL Cannot redeclare wc_display_product_attributes() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\functions.php:288) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3486
+
+2023-04-26T08:30:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_shortcode('thuonghieunoibat', 'create_thuonghieunoibat')" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-left-sidebar-full.php(65): do_action('woocommerce_aft...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'left-sidebar-fu...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-26T09:35:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_template_single_title" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\functions.php(396): do_action('woocommerce_sin...')
+#3 C:\xampp\htdocs\wordpress\wp-settings.php(591): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-26T09:44:14+00:00 CRITICAL Cannot redeclare create_banner() (previously declared in C:\xampp\htdocs\wordpress\wp-content\plugins\newPlugin.php:127) in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\functions.php on line 392
+
+2023-04-26T09:45:45+00:00 CRITICAL Cannot redeclare create_banner() (previously declared in C:\xampp\htdocs\wordpress\wp-content\plugins\newPlugin.php:127) in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome-child\functions.php on line 392
+

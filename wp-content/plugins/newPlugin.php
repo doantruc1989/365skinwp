@@ -3,6 +3,46 @@
 Plugin Name: new Plugin
 Author: quocson
 */
+
+add_shortcode( 'footerfollow' , 'create_footerfollow');
+function create_footerfollow() {
+    return "
+    <div class='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center'>
+        <a href='https://www.tiktok.com/@minhcotmetit' class='flex flex-col items-center justify-center'>
+            <img class='w-28' src='http://localhost/wordpress/wp-content/uploads/2023/04/tiktok.png' alt=''>
+            <p class='font-bold mt-3'>Tiktok Nhân Viên</p>
+            <p class='italic'>@minhcotmetit</p>
+        </a>
+        <a href='https://www.tiktok.com/@skin.365' class='flex flex-col items-center justify-center'>
+            <img class='w-28' src='http://localhost/wordpress/wp-content/uploads/2023/04/tiktok.png' alt=''>
+            <p class='font-bold mt-3'>Tiktok Sản phẩm</p>
+            <p class='italic'>@skin.365</p>
+        </a>
+        <a href='https://www.facebook.com/skin365.vn' class='flex flex-col items-center justify-center'>
+            <img class='w-28' src='http://localhost/wordpress/wp-content/uploads/2023/04/facebook.png' alt=''>
+            <p class='font-bold mt-3'>Facebook</p>
+            <p class='italic'>fb.com/skin365.vn</p>
+        </a>
+        <a href='https://zalo.me/3227705294574144599?src=qr&f=2&utm_src=zoa-cms' class='flex flex-col items-center justify-center'>
+            <img class='w-28' src='http://localhost/wordpress/wp-content/uploads/2023/04/zalo.png' alt=''>
+            <p class='font-bold mt-3'>Zalo</p>
+            <p class='italic'>Minh Cosmetics</p>
+        </a>
+        <a href='https://www.instagram.com/minhcosmetics/' class='flex flex-col items-center justify-center'>
+            <img class='w-28' src='http://localhost/wordpress/wp-content/uploads/2023/04/instagram.png' alt=''>
+            <p class='font-bold mt-3'>Instagram</p>
+            <p class='italic'>@minhcosmetics</p>
+        </a>
+        <a href='tel:0913991345' class='flex flex-col items-center justify-center'>
+            <img class='w-28' src='http://localhost/wordpress/wp-content/uploads/2023/04/phone.png' alt=''>
+            <p class='font-bold mt-3'>Hotline</p>
+            <p class='italic'>0913.991.345</p>
+        </a>
+
+    </div>
+    ";
+}
+
 add_shortcode('thuonghieunoibat', 'create_thuonghieunoibat');
 function create_thuonghieunoibat()
 {

@@ -23,7 +23,7 @@
                     <div class="box-text <?php echo flatsome_product_box_text_class(); ?>">
                         <?php
                         do_action('woocommerce_before_shop_loop_item_title');
-                        echo '<div class="title-wrapper h-14">';
+                        echo '<div class="title-wrapper h-16">';
                         do_action('woocommerce_shop_loop_item_title');
                         echo '</div>';
                         echo '<div class="price-wrapper mt-1">';
